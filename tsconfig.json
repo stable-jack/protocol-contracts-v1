@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declaration": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "paths": {
+            "@/contracts/*": [
+                "scripts/contracts/*"
+            ],
+            "@/test/*": [
+                "test/*"
+            ],
+            "@/types/*": [
+                "scripts/@types/*"
+            ],
+            "@/utils/*": [
+                "scripts/utils/*"
+            ]
+        },
+        "strict": true,
+        "target": "ES2020"
+    },
+    "exclude": [
+        "actions"
+    ],
+    "files": [
+        "./hardhat.config.ts"
+    ],
+    "include": [
+        "scripts",
+        "./test",
+        "./typechain"
+    ],
+    "ts-node": {
+        "require": [
+            "tsconfig-paths/register"
+        ]
+    }
+}

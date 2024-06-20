@@ -1,0 +1,25 @@
+{
+  "ChainlinkPriceOracle": "0x683d224d2D7CCBB217C9932E5F70E55ED0462F59",
+  "JacksAVAXVwapOracle": "0x86BaC61FE280d38123d16634F9C429e5f945aadb",
+  "SyntheticToken": {
+    "implementation": "0x383627530D4b9435355c9c394C70a66aeA00243A",
+    "proxy": "0xaBe7a9dFDA35230ff60D1590a929aE0644c47DC1"
+  },
+  "LeveragedToken": {
+    "implementation": "0xCf26A55e9ce220a5D04cd386F6f996162030C100",
+    "proxy": "0x698C34Bad17193AF7E1B4eb07d1309ff6C5e715e"
+  },
+  "Market": {
+    "implementation": "0xaeC185DED406856ac66127D3622eBf79BA66f131",
+    "proxy": "0xbB640E3Ae4fdd0f9B6d71B3d9F992E12f741b697"
+  },
+  "RebalancePool": {
+    "implementation": "0xadB77D4892C859473CcaCb1c63c1f5E36FB41314",
+    "proxy": "0x0363a3deBe776de575C36F524b7877dB7dd461Db"
+  },
+  "sAVAXTreasury": {
+    "implementation": "0xaB2BD1e640b7D069cFd7A4eB250977f979837451",
+    "proxy": "0xDC325ad34C762C19FaAB37d439fbf219715f9D58"
+  },
+  "sAVAXGateway": "0x013b34DBA0d6c9810F530534507144a8646E3273"
+}
